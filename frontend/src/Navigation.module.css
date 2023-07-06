@@ -1,0 +1,12 @@
+.wrapper {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    color: #f2eded;
+}
+
+
+.navigation ul a {
+    margin: 2rem;
+    color: azure;
+}
