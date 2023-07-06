@@ -1,6 +1,5 @@
 import { Fragment, useState } from "react";
 import classes from './Login.module.css'
-import Navigation from "../Navigation";
 
 function Register(props) {
     const [userName, setUserName] = useState('');
@@ -13,10 +12,10 @@ function Register(props) {
     }
 
     return <Fragment>
-        <Navigation />
         <form className={classes.form}>
+            <h1>Register!</h1>
             <label htmlFor="userName"> Username</label>
-            <input id="userName" type="text" placeholder="Rachel"/>
+            <input id="userName" type="text" placeholder="Rachel" onChange={(e) => setUserName(e.target.value)}/>
             <label htmlFor="email"> Email ID</label>
             <input value={email} onChange={(e) => setEmail(e.target.value)} id="email" type="text" placeholder=" youremail@gmail.com"/>
             <label htmlFor="password"> Password</label>

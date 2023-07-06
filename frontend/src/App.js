@@ -1,19 +1,18 @@
-import { Fragment, useState } from "react";
 import Login from "./login/Login";
-import Register from './login/Register'
+import ComplaintsPage from "./pages/ComplaintsPage";
+import { RouterProvider, createBrowserRouter} from 'react-router-dom';
+import RootLayout from "./Root";
+
+const router = createBrowserRouter([
+  {path: '/', element: <RootLayout />, childern: [
+    // { index:true , element: <Login />},
+    { path: 'complaintsPage', element: <ComplaintsPage />},
+  ]}
+]);
 
 function App() {
-  const[currentForm, setCurrentForm] = useState('login');
-
-   const toggleForm = (formName) => {
-        setCurrentForm(formName);
-    }
-
-  return (
-    <Fragment>
-      {currentForm === 'login' ? <Login onFormSwitch={toggleForm}/> : <Register onFormSwitch={toggleForm}/>}
-    </Fragment>
-  );
+  // return <ComplaintsPage />
+  return <RouterProvider router={router}/>;
 }
 
 export default App;

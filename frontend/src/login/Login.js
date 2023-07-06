@@ -1,5 +1,4 @@
 import { Fragment, useState } from "react";
-import Navigation from "../Navigation";
 import classes from './Login.module.css'
 
 function Login(props) {
@@ -11,9 +10,9 @@ function Login(props) {
         event.preventDefault();
     }
 
-    return <Fragment>
-        <Navigation />
+    return <Fragment>        
         <form className={classes.form}> 
+            <h1>Login!</h1>
             <label htmlFor="email"> Email ID</label>
             <input value={email} onChange={(e) => setEmail(e.target.value)} id="email" type="text" placeholder=" Email ID"/>
             <label htmlFor="password"> Password</label>

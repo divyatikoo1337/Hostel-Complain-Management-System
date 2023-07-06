@@ -9,4 +9,5 @@
 .navigation ul a {
     margin: 2rem;
     color: azure;
+    text-decoration: none;
 }
