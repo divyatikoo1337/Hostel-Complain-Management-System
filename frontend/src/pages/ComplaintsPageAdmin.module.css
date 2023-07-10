@@ -1,0 +1,27 @@
+.complaintCard {
+    box-shadow: 1px 6px rgba(0, 0, 0, 0.22);
+    border: solid rgb(240, 164, 59) 1px;
+    border-radius: 8px;
+    margin: 25px;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 25px; */
+}
+
+.id {
+    padding: 20px 30px;
+    color: azure;
+    font-size: 23px;
+}
+
+.message {
+    padding: 20px 50px;
+    color: azure;
+    font-size: 23px;
+}
+
+.hostel {
+    padding: 20px 40px;
+    color: azure;
+    font-size: 23px;
+}

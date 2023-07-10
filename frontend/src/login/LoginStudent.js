@@ -4,7 +4,6 @@ import classes from './Login.module.css'
 function Login(props) {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState();
-    const [confirmPassword, setConfirmPassword] = useState();
 
     function submitHandler(event){
         event.preventDefault();

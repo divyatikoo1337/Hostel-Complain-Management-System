@@ -1,0 +1,40 @@
+.complaint_form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: solid 1px rgb(240, 164, 59);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 25px 35px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.complaint_form label {
+    color: rgba(240, 171, 73, 0.844);
+}
+
+.complaint_form input {
+    width: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 18px;
+}
+
+.complaint_form select {
+    width: 150px;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.complaint_form button {
+    width: 90px;
+    padding: 8px;
+    background-color: rgb(240, 164, 59);
+    color: black;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+}

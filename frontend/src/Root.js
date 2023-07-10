@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
 import Navigation from "./Navigation";
 import {useState} from 'react';
-import Login from './login/Login';
+import Login from './login/LoginStudent';
 import Register from './login/Register';
 
 function RootLayout() {
