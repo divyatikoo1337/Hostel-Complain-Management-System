@@ -10,8 +10,9 @@ function Navigation() {
                 <NavLink to="/complaintsPageAdmin">Complaints Page</NavLink>
                 <Link>Profile</Link>
                 <Link>Login/Logout</Link>
+                <Link>Hi</Link>
 
-                
+
             </ul>
 
         </div>
