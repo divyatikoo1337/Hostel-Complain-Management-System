@@ -13,7 +13,6 @@ const router = createBrowserRouter([
 ]);
 
 function App() {
-  // return <ComplaintsPage />
   return <RouterProvider router={router}/>;
 }
 

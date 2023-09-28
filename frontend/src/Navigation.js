@@ -11,6 +11,7 @@ function Navigation() {
                 <Link>Profile</Link>
                 <Link>Login/Logout</Link>
             </ul>
+            
         </div>
         </nav>
     </div>
